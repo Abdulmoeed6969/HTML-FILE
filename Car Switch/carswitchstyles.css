@@ -1,0 +1,464 @@
+.main {
+  background-color: white;
+  width: 100%;
+  height: 60px;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("carswitch.png");
+  background-position: 200px center;
+  background-repeat: no-repeat;
+  background-size: 15%;
+}
+.left {
+  display: flex;
+  margin-left: 29%;
+}
+.right {
+  display: flex;
+  margin-right: 8%;
+}
+.left div,
+.right div {
+  color: rgb(4, 4, 86);
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  height: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+.left div button {
+  color: rgb(14, 14, 174);
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: white;
+  border-color: rgb(6, 6, 182);
+  border-style: solid;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.right div button {
+  color: white;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: rgb(14, 14, 174);
+  border-color: rgb(6, 6, 182);
+  border-style: solid;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.right div {
+  font-weight: bold;
+}
+.second {
+  height: 220px;
+  width: 100%;
+  background-image: url("bgdiv.jpg");
+  background-position: top;
+}
+.Heading {
+  color: white;
+  font-weight: bolder;
+  position: relative;
+  font-size: 20px;
+  left: 210px;
+  top: 30px;
+}
+.Paragraph {
+  color: white;
+  position: relative;
+  left: 210px;
+  top: 15px;
+  font-size: 18px;
+}
+.mainbgc {
+  background-color: rgb(231, 233, 243);
+  padding: 50px 0;
+  text-align: center;
+}
+.bgc {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+.explore {
+  background-color: white;
+  padding: 20px;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  width: 1200px;
+  height: 700px;
+}
+.explore h1 {
+  font-size: 30px;
+}
+.explore p {
+  font-size: 19px;
+}
+
+.explore button {
+  background-color: white;
+  border-radius: 25px;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin: 10px;
+  border: 2px solid rgb(227, 220, 220);
+  cursor: pointer;
+}
+.explore .button1 {
+  background-color: white;
+  border-radius: 25px;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin: 10px;
+  border: 2px solid blue;
+  color: blue;
+}
+.photobuttons {
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.explore .photobuttons button {
+  border: 2px solid rgb(227, 220, 220);
+  border-radius: 25px;
+  padding-right: 100px;
+  padding-left: 85px;
+  padding-top: 120px;
+  padding-bottom: 20px;
+  text-align: center;
+  flex: 1 1 200px;
+  max-width: 250px;
+  font-size: 16px;
+  background-position: center top; 
+  background-repeat: no-repeat;
+  background-size: 150px 120px; 
+}
+
+
+.photobuttons .mercedes {
+  background-image: url("mercedes.png");
+  background-size: 60px 60px; 
+}
+
+.photobuttons .nissan {
+  background-image: url("nissan.png");
+  background-size: 60px 60px; 
+}
+
+.photobuttons .porshe {
+  background-image: url("porshe.png");
+  background-size: 60px 60px; 
+}
+
+.photobuttons .rangerover {
+  background-image: url("rangerover.png");
+  background-size: 60px 60px; 
+}
+
+.photobuttons .toyota {
+  background-image: url("toyota.png");
+  background-size: 60px 60px; 
+}
+
+.photobuttons .bmw {
+  background-image: url("bmw.png");
+  background-size: 60px 60px;
+}
+
+.photobuttons .mitsubishi {
+  background-image: url("mitsubishi.png");
+  background-size: 60px 60px; 
+}
+
+.photobuttons .hyundai {
+  background-image: url("hyundai.png");
+  background-size: 60px 60px; 
+}
+
+.photobuttons2 {
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.explore .photobuttons2 button {
+  border: 2px solid rgb(227, 220, 220);
+  border-radius: 25px;
+  padding-right: 100px;
+  padding-left: 85px;
+  padding-top: 120px;
+  padding-bottom: 20px;
+  text-align: center;
+  flex: 1 1 200px;
+  max-width: 250px;
+  font-size: 16px;
+  background-position: center top; 
+  background-repeat: no-repeat;
+  background-size: 150px 120px; 
+}
+
+
+.photobuttons2 .volkswagen {
+  background-image: url("volkswagen.png");
+  background-size: 60px 60px; 
+}
+
+.photobuttons2 .audi {
+  background-image: url("audi.png");
+  background-size: 60px 60px; 
+}
+
+.photobuttons2 .mg {
+  background-image: url("mg.png");
+  background-size: 60px 60px; 
+}
+
+.photobuttons2 .lamborghini {
+  background-image: url("lamborghini.png");
+  background-size: 60px 60px; 
+}
+
+.photobuttons2 .lexus {
+  background-image: url("lexus.jpg");
+  background-size: 60px 60px; 
+}
+
+.photobuttons2 .honda {
+  background-image: url("honda.png");
+  background-size: 60px 60px;
+}
+
+.photobuttons2 .tesla {
+  background-image: url("tesla.png");
+  background-size: 60px 60px; 
+}
+
+.photobuttons2 .jeep {
+  background-image: url("jeep.jpg");
+  background-size: 60px 60px; 
+}
+.paar {
+  font-size: large;
+  color: rgba(39, 37, 37, 0.774);
+}
+.tablediv {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+.tablediv2 {
+  background-color: white;
+  padding: 20px;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  max-width: 1200px;
+  width: 100%;
+  height: 300px;
+  border: 10px solid rgb(5, 5, 135);
+  border-radius: 40px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px;
+}
+
+th {
+  background-color: rgb(5, 5, 135);
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.carvaluation {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+
+  width: 100%;
+  padding: 20px 0;
+  height: 330px;
+}
+
+.Carvaluationdiv {
+  background-image: url(randommmm.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  max-width: 1200px;
+  width: 100%;
+  height: 300px;
+  background-color: white; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Carvaluationdiv h1 {
+  color: white;
+}
+.Carvaluationdiv p {
+  color: white;
+  font-size: 18px;
+  width: 90%;
+  text-align: left;
+}
+.Carvaluationdiv button {
+  background-color: rgb(13, 13, 178);
+  color: white;
+  border-radius: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border: none;
+  font-weight: bold;
+}
+.para1 {
+  color: rgba(39, 37, 37, 0.774);
+  font-size: large;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 90%;
+  text-align: left;
+}
+
+.Multiplepara {
+  padding: 0 20px;
+  padding-bottom: 70px;
+}
+.Headingss {
+  text-align: left;
+  color: black;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+}
+.para2 {
+  color: rgba(39, 37, 37, 0.774);
+  font-size: large;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 90%;
+  text-align: left;
+}
+.para3 {
+  color: rgba(39, 37, 37, 0.774);
+  font-size: large;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 90%;
+  text-align: left;
+}
+.para4 {
+  color: rgba(39, 37, 37, 0.774);
+  font-size: large;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 90%;
+  text-align: left;
+}
+.how {
+  color: rgba(39, 37, 37, 0.774);
+  font-size: large;
+  margin: 0 left; 
+  padding: 0 20px;
+  width: 30vw; 
+  text-align: left;
+  padding-left: 90px;
+}
+.how p {
+  font-size: 16px;
+}
+.how h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.howcontainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.how,
+.how2 {
+  width: 48%; 
+}
+
+.how p {
+  font-size: 16px;
+}
+
+.how h4,
+.how2 h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.how2 {
+  color: rgba(39, 37, 37, 0.774);
+  font-size: large;
+  margin: 0 left; 
+  padding: 0 20px;
+  width: 30vw; 
+  text-align: left;
+  padding-right: 90px;
+}
+hr {
+border: none; 
+border-top: 1px solid rgba(0, 0, 0, 0.1); 
+width: 100%;
+margin: 10px auto; 
+}
+.howcontainer h4{
+color: black;
+font-weight: 500;
+}
+.thend {
+background-image: url("big.png");
+background-size: cover; /* Ensures the image covers the container */
+background-position: center; /* Centers the image */
+background-repeat: no-repeat; /* Prevents image repetition */
+width: 100%; /* Ensures the container takes the full width */
+height: 700px; /* Adjust this as needed */
+}
+.thend2{
+background-image: url("smol.png");
+background-size: cover; /* Ensures the image covers the container */
+background-position: center; /* Centers the image */
+background-repeat: no-repeat; /* Prevents image repetition */
+width: 100%; /* Ensures the container takes the full width */
+height: 160px; /* Adjust this as needed */
+}

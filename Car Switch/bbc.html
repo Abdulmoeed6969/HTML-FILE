@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Div</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        background-image: url("background.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .Main {
+        width: 100%;
+        height: 80px;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url("bbc.png");
+        background-size: 8%;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .left,
+      .right {
+        display: flex;
+      }
+      .left div,
+      .right div {
+        color: white;
+        float: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        height: 80px;
+        padding-left: 10px;
+        padding-right: 30px;
+      }
+      .c1 {
+        color: white;
+        float: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        height: 80px;
+        padding-left: 10px;
+        padding-right: 30px;
+      }
+      .c2 {
+        color: white;
+        float: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        height: 80px;
+        padding-right: 30px;
+      }
+      .c3 {
+        color: white;
+        float: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        height: 80px;
+        padding-right: 30px;
+      }
+      .c4 {
+        color: white;
+        float: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        height: 80px;
+      }
+      .Main div a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .Main div a:hover {
+        transition: 1s;
+        color: antiquewhite;
+        text-decoration: underline;
+      }
+      .Main div a:active {
+        transition: 0.1s;
+        color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Main">
+      <div class="left">
+        <div class="c1"><a href="#">Home</a></div>
+        <div class="c2"><a href="#">About</a></div>
+        <div class="c3"><a href="#">Learn More</a></div>
+        <div class="c4"><a href="#">Settings</a></div>
+      </div>
+      <div class="right">
+        <div class="c4"><a href="#">Options</a></div>
+        <div class="c5"><a href="#">Help</a></div>
+      </div>
+    </div>
+  </body>
+</html>

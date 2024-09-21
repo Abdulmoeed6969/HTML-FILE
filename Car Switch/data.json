@@ -1,0 +1,20 @@
+{
+  "cars": [
+    {"make": "Mercedes", "buttonClass": "mercedes", "image": "mercedes.png"},
+    {"make": "Nissan", "buttonClass": "nissan", "image": "nissan.png"},
+    {"make": "Porsche", "buttonClass": "porshe", "image": "porsche.png"},
+    {"make": "Range Rover", "buttonClass": "rangerover", "image": "rangerover.png"},
+    {"make": "Toyota", "buttonClass": "toyota", "image": "toyota.png"},
+    {"make": "BMW", "buttonClass": "bmw", "image": "bmw.png"},
+    {"make": "Mitsubishi", "buttonClass": "mitsubishi", "image": "mitsubishi.png"},
+    {"make": "Hyundai", "buttonClass": "hyundai", "image": "hyundai.png"},
+    {"make": "Volkswagen", "buttonClass": "Volkswagen", "image": "volkswagen.png"},
+    {"make": "Audi", "buttonClass": "audi", "image": "audi.png"},
+    {"make": "MG", "buttonClass": "mg", "image": "mg.png"},
+    {"make": "Lamborghini", "buttonClass": "lamborghini", "image": "lamborghini.png"},
+    {"make": "Lexus", "buttonClass": "lexus", "image": "lexus.jpg"},
+    {"make": "Honda", "buttonClass": "honda", "image": "honda.png"},
+    {"make": "Tesla", "buttonClass": "tesla", "image": "tesla.png"},
+    {"make": "Jeep", "buttonClass": "jeep", "image": "jeep.jpg"}    
+  ]
+}
