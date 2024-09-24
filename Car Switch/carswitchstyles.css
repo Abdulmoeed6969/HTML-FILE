@@ -150,35 +150,35 @@
   flex: 1 1 200px;
   max-width: 250px;
   font-size: 16px;
-  background-position: center top; 
+  background-position: center top;
   background-repeat: no-repeat;
-  background-size: 150px 120px; 
+  background-size: 150px 120px;
+  white-space: nowrap;
 }
-
 
 .photobuttons .mercedes {
   background-image: url("mercedes.png");
-  background-size: 60px 60px; 
+  background-size: 60px 60px;
 }
 
 .photobuttons .nissan {
   background-image: url("nissan.png");
-  background-size: 60px 60px; 
+  background-size: 60px 60px;
 }
 
 .photobuttons .porshe {
   background-image: url("porshe.png");
-  background-size: 60px 60px; 
+  background-size: 60px 60px;
 }
 
 .photobuttons .rangerover {
   background-image: url("rangerover.png");
-  background-size: 60px 60px; 
+  background-size: 60px 60px;
 }
 
 .photobuttons .toyota {
   background-image: url("toyota.png");
-  background-size: 60px 60px; 
+  background-size: 60px 60px;
 }
 
 .photobuttons .bmw {
@@ -188,12 +188,12 @@
 
 .photobuttons .mitsubishi {
   background-image: url("mitsubishi.png");
-  background-size: 60px 60px; 
+  background-size: 60px 60px;
 }
 
 .photobuttons .hyundai {
   background-image: url("hyundai.png");
-  background-size: 60px 60px; 
+  background-size: 60px 60px;
 }
 
 .photobuttons2 {
@@ -214,35 +214,34 @@
   flex: 1 1 200px;
   max-width: 250px;
   font-size: 16px;
-  background-position: center top; 
+  background-position: center top;
   background-repeat: no-repeat;
-  background-size: 150px 120px; 
+  background-size: 150px 120px;
 }
-
 
 .photobuttons2 .volkswagen {
   background-image: url("volkswagen.png");
-  background-size: 60px 60px; 
+  background-size: 60px 60px;
 }
 
 .photobuttons2 .audi {
   background-image: url("audi.png");
-  background-size: 60px 60px; 
+  background-size: 60px 60px;
 }
 
 .photobuttons2 .mg {
   background-image: url("mg.png");
-  background-size: 60px 60px; 
+  background-size: 60px 60px;
 }
 
 .photobuttons2 .lamborghini {
   background-image: url("lamborghini.png");
-  background-size: 60px 60px; 
+  background-size: 60px 60px;
 }
 
 .photobuttons2 .lexus {
   background-image: url("lexus.jpg");
-  background-size: 60px 60px; 
+  background-size: 60px 60px;
 }
 
 .photobuttons2 .honda {
@@ -252,12 +251,12 @@
 
 .photobuttons2 .tesla {
   background-image: url("tesla.png");
-  background-size: 60px 60px; 
+  background-size: 60px 60px;
 }
 
 .photobuttons2 .jeep {
   background-image: url("jeep.jpg");
-  background-size: 60px 60px; 
+  background-size: 60px 60px;
 }
 .paar {
   font-size: large;
@@ -302,7 +301,7 @@ tr:nth-child(even) {
 .carvaluation {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 
   width: 100%;
   padding: 20px 0;
@@ -321,7 +320,7 @@ tr:nth-child(even) {
   max-width: 1200px;
   width: 100%;
   height: 300px;
-  background-color: white; 
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -393,9 +392,9 @@ tr:nth-child(even) {
 .how {
   color: rgba(39, 37, 37, 0.774);
   font-size: large;
-  margin: 0 left; 
+  margin: 0 left;
   padding: 0 20px;
-  width: 30vw; 
+  width: 30vw;
   text-align: left;
   padding-left: 90px;
 }
@@ -415,7 +414,7 @@ tr:nth-child(even) {
 
 .how,
 .how2 {
-  width: 48%; 
+  width: 48%;
 }
 
 .how p {
@@ -430,35 +429,35 @@ tr:nth-child(even) {
 .how2 {
   color: rgba(39, 37, 37, 0.774);
   font-size: large;
-  margin: 0 left; 
+  margin: 0 left;
   padding: 0 20px;
-  width: 30vw; 
+  width: 30vw;
   text-align: left;
   padding-right: 90px;
 }
 hr {
-border: none; 
-border-top: 1px solid rgba(0, 0, 0, 0.1); 
-width: 100%;
-margin: 10px auto; 
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin: 10px auto;
 }
-.howcontainer h4{
-color: black;
-font-weight: 500;
+.howcontainer h4 {
+  color: black;
+  font-weight: 500;
 }
 .thend {
-background-image: url("big.png");
-background-size: cover; /* Ensures the image covers the container */
-background-position: center; /* Centers the image */
-background-repeat: no-repeat; /* Prevents image repetition */
-width: 100%; /* Ensures the container takes the full width */
-height: 700px; /* Adjust this as needed */
+  background-image: url("big.png");
+  background-size: cover; /* Ensures the image covers the container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents image repetition */
+  width: 100%; /* Ensures the container takes the full width */
+  height: 700px; /* Adjust this as needed */
 }
-.thend2{
-background-image: url("smol.png");
-background-size: cover; /* Ensures the image covers the container */
-background-position: center; /* Centers the image */
-background-repeat: no-repeat; /* Prevents image repetition */
-width: 100%; /* Ensures the container takes the full width */
-height: 160px; /* Adjust this as needed */
+.thend2 {
+  background-image: url("smol.png");
+  background-size: cover; /* Ensures the image covers the container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents image repetition */
+  width: 100%; /* Ensures the container takes the full width */
+  height: 160px; /* Adjust this as needed */
 }

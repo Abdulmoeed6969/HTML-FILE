@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Switch Website</title>
     <link rel="stylesheet" href="carswitchstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <header>
@@ -46,26 +48,30 @@
           <button>Body Type</button>
           <button>Year</button>
           <button>Seats</button>
-          <div class="photobuttons">
-            <button class="mercedes">Mercedes</button>
-            <button class="nissan">Nissan</button>
-            <button class="porshe">Porshe</button>
-            <button class="rangerover">Range Rover</button>
-            <button class="toyota">Toyota</button>
-            <button class="bmw">BMW</button>
-            <button class="mitsubishi">Mitsubishi</button>
-            <button class="hyundai">Hyundai</button>
+          <div class="owl-carousel owl-theme">
+            <div class="photobuttons item">
+              <button class="mercedes">Mercedes</button>
+              <button class="nissan">Nissan</button>
+              <button class="porshe">Porshe</button>
+              <button class="rangerover">Range Rover</button>
+              <button class="toyota">Toyota</button>
+              <button class="bmw">BMW</button>
+              <button class="mitsubishi">Mitsubishi</button>
+              <button class="hyundai">Hyundai</button>
+            </div>
+            <div class="photobuttons2 item">
+              <button class="volkswagen">volkswagen</button>
+              <button class="audi">audi</button>
+              <button class="mg">MG</button>
+              <button class="lamborghini">Lamborghini</button>
+              <button class="lexus">Lexus</button>
+              <button class="honda">Honda</button>
+              <button class="tesla">Tesla</button>
+              <button class="jeep">JEEP</button>
+            </div>
           </div>
-          <div class="photobuttons2">
-            <button class="volkswagen">volkswagen</button>
-            <button class="audi">audi</button>
-            <button class="mg">MG</button>
-            <button class="lamborghini">Lamborghini</button>
-            <button class="lexus">Lexus</button>
-            <button class="honda">Honda</button>
-            <button class="tesla">Tesla</button>
-            <button class="jeep">JEEP</button>
-          </div>
+          <!-- <div class="photobuttons2">
+          </div> -->
         </div>
       </div>
       <h1>Used cars price list in KSA</h1>
@@ -273,22 +279,43 @@
     </div>
     <div class="thend2"></div>
     <script>
-      document.addEventListener('DOMContentLoaded', () => {
-        fetch('data.json')
-          .then(response => response.json())
-          .then(data => {
-            const photobuttons = document.querySelector('.photobuttons');
+      // document.addEventListener('DOMContentLoaded', () => {
+      //   fetch('data.json')
+      //     .then(response => response.json())
+      //     .then(data => {
+      //       const photobuttons = document.querySelector('.photobuttons');
             
-            data.cars.forEach(car => {
-              const button = document.createElement('button');
-              button.className = car.buttonClass;
-              button.textContent = car.make;
-              button.style.backgroundImage = `url(${car.image})`;
-              photobuttons.appendChild(button);
-            });
-          })
-          .catch(error => console.error('Error loading the data:', error));
-      });
+      //       data.cars.forEach(car => {
+      //         const button = document.createElement('button');
+      //         button.className = car.buttonClass;
+      //         button.textContent = car.make;
+      //         button.style.backgroundImage = url(${car.image});
+      //         photobuttons.appendChild(button);
+      //       });
+      //     })
+      //     .catch(error => console.error('Error loading the data:', error));
+      // });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          nav:true,
+          responsive:{
+              0:{
+                  items:1
+              },
+              600:{
+                  items:1
+              },
+              1000:{
+                  items:1
+              }
+          }
+      })
     </script>
   </body>
 </html>
